@@ -15,17 +15,6 @@ Console.Write("This is ");
 Console.Write("the second ");
 Console.Write("line.");
 
-
-
-//declarando variveis 
-
-string firstName;
-char userOption;
-int gameScore;
-decimal particlesPerMillion;
-bool processedCustomer;
-
-
 //valores literais 
 Console.WriteLine('b');
 
@@ -48,5 +37,72 @@ Console.WriteLine(12.30m);
 // Gravar um literal bool no console
 Console.WriteLine(true);
 Console.WriteLine(false);
+
+
+
+//declarando variveis 
+
+//string firstName;
+//char userOption;
+//int gameScore;
+//decimal particlesPerMillion;
+//bool processedCustomer;
+
+
+//configurar e obter valores de variáveis
+//Como as variáveis são contêineres de armazenamento temporário para dados, elas devem ser gravadas e lidas.
+// você declarará uma variável, atribuirá um valor a ela, recuperará seu valor e muito mais.
+
+
+//declarar uma variável e atribuir um valor a ela   
+//string firstName;
+//firstName = "bob";
+
+
+//recuperar um valor armazenado na variável
+//Console.WriteLine(firstName);
+
+
+//reatribuir o valor de uma variável
+//firstName = "Beth";
+//Console.WriteLine(firstName);
+//firstName = "Conrad";
+//Console.WriteLine(firstName);
+//firstName = "Grant";
+//Console.WriteLine(firstName);
+
+
+//inicializar a variável
+//string firstName = "bob";
+//Console.WriteLine(firstName);
+
+
+
+//Variáveis locais de tipo implícito
+//correct
+//var message = "Hello world!";
+//incorrect 
+//var message = "Hello World!";
+//message = 10.0m;
+//var message;
+
+//string firstName = "Bob";
+//var message = "Hello!";
+//Console.Write( message, firstName);
+
+
+string firstName = "Bob";
+int messageInbox = 3;
+decimal temperature = 34.4m;
+
+Console.Write("Hello, ");
+Console.Write(firstName);
+Console.Write("! You Have ");
+Console.Write(messageInbox);
+Console.Write(" messages in your inbox. The temperature is ");
+Console.Write(temperature);
+Console.Write(" Celsius ");
+
+
 
 
